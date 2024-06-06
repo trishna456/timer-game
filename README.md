@@ -1,6 +1,6 @@
 # Timer Game Project
 
-This repository contains a Timer Game project built with React, demonstrating the use of advanced React concepts such as `useRef`, ref forwarding, `useImperativeHandle`, and portals. The project serves as a practical example of how to apply these concepts in a real-world application, specifically a timing-based game.
+This repository contains a Timer Game project built with React, demonstrating the use of advanced React concepts such as useRef, ref forwarding, useImperativeHandle, and portals. The project serves as a practical example of how to apply these concepts in a real-world application, specifically a timing-based game.
 
 ## Game Description
 
@@ -14,14 +14,14 @@ The closer the player stops the timer to the target time, the higher their score
 
 ## Key Concepts and Implementation
 
-### `useRef` Hook
-- **Accessing DOM Elements**: The `useRef` hook is used to directly interact with and manipulate DOM elements, such as the timer display. This allows for efficient and direct updates without triggering re-renders.
+### useRef Hook
+- **Accessing DOM Elements**: The useRef hook is used to directly interact with and manipulate DOM elements, such as the timer display. This allows for efficient and direct updates without triggering re-renders.
 
 ### Ref Forwarding
 - **Passing Refs to Child Components**: Ref forwarding allows parent components to pass refs to their children, enabling direct manipulation of child components.
 
-### `useImperativeHandle` Hook
-- **Exposing Custom APIs**: The `useImperativeHandle` hook defines custom methods that parent components can call, providing a controlled API for interaction.
+### useImperativeHandle Hook
+- **Exposing Custom APIs**: The useImperativeHandle hook defines custom methods that parent components can call, providing a controlled API for interaction.
 
 ### Portals
 - **Rendering Outside the Main DOM Tree**: React portals render components outside the main DOM hierarchy, useful for modals and overlays.
